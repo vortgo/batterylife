@@ -1,0 +1,1624 @@
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 12; ]
+    module Layouts {
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 13; ]
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_home_vortgo_projects_garmin_1_batterylife_bin_gen_006_B4375_00_source_Rez_mcgen_13_74_25_8_start:
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 14 12 ]
+            [ "_home_vortgo_projects_garmin_1_batterylife_bin_gen_006_B4375_00_source_Rez_mcgen_13_74_25_8_start" "_home_vortgo_projects_garmin_1_batterylife_bin_gen_006_B4375_00_source_Rez_mcgen_13_74_25_8_stop" ]
+            %rez_cmp_local_text_status.1 = local;
+            %tmp.3 = getm $.Toybox.WatchUi;
+            %tmp.4 = getv function ? %tmp.3 :Text;
+            %tmp.5 = newd 7;
+            %tmp.7 = const :identifier;
+            %tmp.8 = "status";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :color;
+            %tmp.13 = getm $.Toybox.Graphics;
+            %tmp.14 = getv %tmp.13 :COLOR_GREEN;
+            %tmp.15 = dup %tmp.10;
+            %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
+            %tmp.18 = const :locX;
+            %tmp.19 = 260;
+            %tmp.20 = 0.5;
+            %tmp.21 = mul %tmp.19 %tmp.20;
+            %tmp.22 = dup %tmp.16;
+            %tmp.23 = aputv %tmp.22 %tmp.18 %tmp.21;
+            %tmp.25 = const :locY;
+            %tmp.26 = 260;
+            %tmp.27 = 10;
+            %tmp.28 = 100.0;
+            %tmp.29 = div %tmp.27 %tmp.28;
+            %tmp.30 = mul %tmp.26 %tmp.29;
+            %tmp.31 = dup %tmp.23;
+            %tmp.32 = aputv %tmp.31 %tmp.25 %tmp.30;
+            %tmp.34 = const :text;
+            %tmp.35 = "ACTIVE";
+            %tmp.36 = dup %tmp.32;
+            %tmp.37 = aputv %tmp.36 %tmp.34 %tmp.35;
+            %tmp.39 = const :justification;
+            %tmp.40 = getm $.Toybox.Graphics;
+            %tmp.41 = getv %tmp.40 :TEXT_JUSTIFY_CENTER;
+            %tmp.42 = dup %tmp.37;
+            %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
+            %tmp.45 = const :font;
+            %tmp.46 = getm $.Toybox.Graphics;
+            %tmp.47 = getv %tmp.46 :FONT_LARGE;
+            %tmp.48 = dup %tmp.43;
+            %tmp.49 = aputv %tmp.48 %tmp.45 %tmp.47;
+            %tmp.1 = newc %tmp.4 (%tmp.49);
+            lputv %rez_cmp_local_text_status.1 %tmp.1;
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 16 12 ]
+            [ "_home_vortgo_projects_garmin_1_batterylife_bin_gen_006_B4375_00_source_Rez_mcgen_13_74_25_8_start" "_home_vortgo_projects_garmin_1_batterylife_bin_gen_006_B4375_00_source_Rez_mcgen_13_74_25_8_stop" ]
+            %rez_cmp_local_text_1315031131.2 = local;
+            %tmp.52 = getm $.Toybox.WatchUi;
+            %tmp.53 = getv function ? %tmp.52 :Text;
+            %tmp.54 = newd 6;
+            %tmp.56 = const :color;
+            %tmp.57 = getm $.Toybox.Graphics;
+            %tmp.58 = getv %tmp.57 :COLOR_LT_GRAY;
+            %tmp.59 = dup %tmp.54;
+            %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
+            %tmp.62 = const :locX;
+            %tmp.63 = 260;
+            %tmp.64 = 0.5;
+            %tmp.65 = mul %tmp.63 %tmp.64;
+            %tmp.66 = dup %tmp.60;
+            %tmp.67 = aputv %tmp.66 %tmp.62 %tmp.65;
+            %tmp.69 = const :locY;
+            %tmp.70 = 260;
+            %tmp.71 = 25;
+            %tmp.72 = 100.0;
+            %tmp.73 = div %tmp.71 %tmp.72;
+            %tmp.74 = mul %tmp.70 %tmp.73;
+            %tmp.75 = dup %tmp.67;
+            %tmp.76 = aputv %tmp.75 %tmp.69 %tmp.74;
+            %tmp.78 = const :text;
+            %tmp.79 = "Last started at";
+            %tmp.80 = dup %tmp.76;
+            %tmp.81 = aputv %tmp.80 %tmp.78 %tmp.79;
+            %tmp.83 = const :justification;
+            %tmp.84 = getm $.Toybox.Graphics;
+            %tmp.85 = getv %tmp.84 :TEXT_JUSTIFY_CENTER;
+            %tmp.86 = dup %tmp.81;
+            %tmp.87 = aputv %tmp.86 %tmp.83 %tmp.85;
+            %tmp.89 = const :font;
+            %tmp.90 = getm $.Toybox.Graphics;
+            %tmp.91 = getv %tmp.90 :FONT_MEDIUM;
+            %tmp.92 = dup %tmp.87;
+            %tmp.93 = aputv %tmp.92 %tmp.89 %tmp.91;
+            %tmp.50 = newc %tmp.53 (%tmp.93);
+            lputv %rez_cmp_local_text_1315031131.2 %tmp.50;
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 18 12 ]
+            [ "_home_vortgo_projects_garmin_1_batterylife_bin_gen_006_B4375_00_source_Rez_mcgen_13_74_25_8_start" "_home_vortgo_projects_garmin_1_batterylife_bin_gen_006_B4375_00_source_Rez_mcgen_13_74_25_8_stop" ]
+            %rez_cmp_local_text_last_start.3 = local;
+            %tmp.96 = getm $.Toybox.WatchUi;
+            %tmp.97 = getv function ? %tmp.96 :Text;
+            %tmp.98 = newd 6;
+            %tmp.100 = const :identifier;
+            %tmp.101 = "last_start";
+            %tmp.102 = dup %tmp.98;
+            %tmp.103 = aputv %tmp.102 %tmp.100 %tmp.101;
+            %tmp.105 = const :locX;
+            %tmp.106 = 260;
+            %tmp.107 = 0.5;
+            %tmp.108 = mul %tmp.106 %tmp.107;
+            %tmp.109 = dup %tmp.103;
+            %tmp.110 = aputv %tmp.109 %tmp.105 %tmp.108;
+            %tmp.112 = const :locY;
+            %tmp.113 = 260;
+            %tmp.114 = 40;
+            %tmp.115 = 100.0;
+            %tmp.116 = div %tmp.114 %tmp.115;
+            %tmp.117 = mul %tmp.113 %tmp.116;
+            %tmp.118 = dup %tmp.110;
+            %tmp.119 = aputv %tmp.118 %tmp.112 %tmp.117;
+            %tmp.121 = const :text;
+            %tmp.122 = "- - -";
+            %tmp.123 = dup %tmp.119;
+            %tmp.124 = aputv %tmp.123 %tmp.121 %tmp.122;
+            %tmp.126 = const :justification;
+            %tmp.127 = getm $.Toybox.Graphics;
+            %tmp.128 = getv %tmp.127 :TEXT_JUSTIFY_CENTER;
+            %tmp.129 = dup %tmp.124;
+            %tmp.130 = aputv %tmp.129 %tmp.126 %tmp.128;
+            %tmp.132 = const :font;
+            %tmp.133 = getm $.Toybox.Graphics;
+            %tmp.134 = getv %tmp.133 :FONT_SMALL;
+            %tmp.135 = dup %tmp.130;
+            %tmp.136 = aputv %tmp.135 %tmp.132 %tmp.134;
+            %tmp.94 = newc %tmp.97 (%tmp.136);
+            lputv %rez_cmp_local_text_last_start.3 %tmp.94;
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 20 12 ]
+            [ "_home_vortgo_projects_garmin_1_batterylife_bin_gen_006_B4375_00_source_Rez_mcgen_13_74_25_8_start" "_home_vortgo_projects_garmin_1_batterylife_bin_gen_006_B4375_00_source_Rez_mcgen_13_74_25_8_stop" ]
+            %rez_cmp_local_text_1249933471.4 = local;
+            %tmp.139 = getm $.Toybox.WatchUi;
+            %tmp.140 = getv function ? %tmp.139 :Text;
+            %tmp.141 = newd 6;
+            %tmp.143 = const :color;
+            %tmp.144 = getm $.Toybox.Graphics;
+            %tmp.145 = getv %tmp.144 :COLOR_LT_GRAY;
+            %tmp.146 = dup %tmp.141;
+            %tmp.147 = aputv %tmp.146 %tmp.143 %tmp.145;
+            %tmp.149 = const :locX;
+            %tmp.150 = 260;
+            %tmp.151 = 0.5;
+            %tmp.152 = mul %tmp.150 %tmp.151;
+            %tmp.153 = dup %tmp.147;
+            %tmp.154 = aputv %tmp.153 %tmp.149 %tmp.152;
+            %tmp.156 = const :locY;
+            %tmp.157 = 260;
+            %tmp.158 = 55;
+            %tmp.159 = 100.0;
+            %tmp.160 = div %tmp.158 %tmp.159;
+            %tmp.161 = mul %tmp.157 %tmp.160;
+            %tmp.162 = dup %tmp.154;
+            %tmp.163 = aputv %tmp.162 %tmp.156 %tmp.161;
+            %tmp.165 = const :text;
+            %tmp.166 = "Since last charge";
+            %tmp.167 = dup %tmp.163;
+            %tmp.168 = aputv %tmp.167 %tmp.165 %tmp.166;
+            %tmp.170 = const :justification;
+            %tmp.171 = getm $.Toybox.Graphics;
+            %tmp.172 = getv %tmp.171 :TEXT_JUSTIFY_CENTER;
+            %tmp.173 = dup %tmp.168;
+            %tmp.174 = aputv %tmp.173 %tmp.170 %tmp.172;
+            %tmp.176 = const :font;
+            %tmp.177 = getm $.Toybox.Graphics;
+            %tmp.178 = getv %tmp.177 :FONT_MEDIUM;
+            %tmp.179 = dup %tmp.174;
+            %tmp.180 = aputv %tmp.179 %tmp.176 %tmp.178;
+            %tmp.137 = newc %tmp.140 (%tmp.180);
+            lputv %rez_cmp_local_text_1249933471.4 %tmp.137;
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 22 12 ]
+            [ "_home_vortgo_projects_garmin_1_batterylife_bin_gen_006_B4375_00_source_Rez_mcgen_13_74_25_8_start" "_home_vortgo_projects_garmin_1_batterylife_bin_gen_006_B4375_00_source_Rez_mcgen_13_74_25_8_stop" ]
+            %rez_cmp_local_text_since_last_charge.5 = local;
+            %tmp.183 = getm $.Toybox.WatchUi;
+            %tmp.184 = getv function ? %tmp.183 :Text;
+            %tmp.185 = newd 6;
+            %tmp.187 = const :identifier;
+            %tmp.188 = "since_last_charge";
+            %tmp.189 = dup %tmp.185;
+            %tmp.190 = aputv %tmp.189 %tmp.187 %tmp.188;
+            %tmp.192 = const :locX;
+            %tmp.193 = 260;
+            %tmp.194 = 0.5;
+            %tmp.195 = mul %tmp.193 %tmp.194;
+            %tmp.196 = dup %tmp.190;
+            %tmp.197 = aputv %tmp.196 %tmp.192 %tmp.195;
+            %tmp.199 = const :locY;
+            %tmp.200 = 260;
+            %tmp.201 = 70;
+            %tmp.202 = 100.0;
+            %tmp.203 = div %tmp.201 %tmp.202;
+            %tmp.204 = mul %tmp.200 %tmp.203;
+            %tmp.205 = dup %tmp.197;
+            %tmp.206 = aputv %tmp.205 %tmp.199 %tmp.204;
+            %tmp.208 = const :text;
+            %tmp.209 = "- - -";
+            %tmp.210 = dup %tmp.206;
+            %tmp.211 = aputv %tmp.210 %tmp.208 %tmp.209;
+            %tmp.213 = const :justification;
+            %tmp.214 = getm $.Toybox.Graphics;
+            %tmp.215 = getv %tmp.214 :TEXT_JUSTIFY_CENTER;
+            %tmp.216 = dup %tmp.211;
+            %tmp.217 = aputv %tmp.216 %tmp.213 %tmp.215;
+            %tmp.219 = const :font;
+            %tmp.220 = getm $.Toybox.Graphics;
+            %tmp.221 = getv %tmp.220 :FONT_SMALL;
+            %tmp.222 = dup %tmp.217;
+            %tmp.223 = aputv %tmp.222 %tmp.219 %tmp.221;
+            %tmp.181 = newc %tmp.184 (%tmp.223);
+            lputv %rez_cmp_local_text_since_last_charge.5 %tmp.181;
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 24 12 ]
+            %tmp.224 = newa 5 Array<WatchUi.Drawable>;
+            %tmp.226 = lgetv %rez_cmp_local_text_status.1;
+            %tmp.227 = dup %tmp.224;
+            %tmp.228 = aputv %tmp.227 0 %tmp.226;
+            %tmp.230 = lgetv %rez_cmp_local_text_1315031131.2;
+            %tmp.231 = dup %tmp.228;
+            %tmp.232 = aputv %tmp.231 1 %tmp.230;
+            %tmp.234 = lgetv %rez_cmp_local_text_last_start.3;
+            %tmp.235 = dup %tmp.232;
+            %tmp.236 = aputv %tmp.235 2 %tmp.234;
+            %tmp.238 = lgetv %rez_cmp_local_text_1249933471.4;
+            %tmp.239 = dup %tmp.236;
+            %tmp.240 = aputv %tmp.239 3 %tmp.238;
+            %tmp.242 = lgetv %rez_cmp_local_text_since_last_charge.5;
+            %tmp.243 = dup %tmp.240;
+            %tmp.244 = aputv %tmp.243 4 %tmp.242;
+            ret %tmp.244;
+_home_vortgo_projects_garmin_1_batterylife_bin_gen_006_B4375_00_source_Rez_mcgen_13_74_25_8_stop:
+        }
+    }
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 28; ]
+    module Strings {
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 28; ]
+        <init> {
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 29; @position = 27; initialized = true; ]
+        var menu_label_1 as ResourceId;
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 30; @position = 27; initialized = true; ]
+        var menu_label_2 as ResourceId;
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 31; @position = 27; initialized = true; ]
+        var prompt as ResourceId;
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 35; ]
+    module Styles {
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 35; ]
+        <init> {
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 36; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 36; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 37; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 40; ]
+        module system_size__menu_header {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 40; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 41; @position = 18; ]
+            const width as Number = 260;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 42; @position = 18; ]
+            const height as Number = 81;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 45; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 45; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 46; @position = 18; ]
+            const x as Number = 10;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 47; @position = 18; ]
+            const y as Number = 172;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 50; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 50; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 51; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 54; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 54; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 55; @position = 18; ]
+            const x as Number = 26;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 56; @position = 18; ]
+            const y as Number = 26;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 59; ]
+        module system_icon_dark__about {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 59; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 60; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__about.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 61; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 62; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 63; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 66; ]
+        module system_icon_light__question {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 66; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 67; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__question.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 68; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 71; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 71; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 72; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 75; ]
+        module prompt_font__title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 75; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 76 18 ]
+                %tmp.245 = getm $.Toybox.Graphics;
+                %tmp.246 = getv %tmp.245 :TEXT_JUSTIFY_CENTER;
+                %tmp.247 = getm $.Toybox.Graphics;
+                %tmp.248 = getv %tmp.247 :TEXT_JUSTIFY_VCENTER;
+                %tmp.249 = bitor %tmp.246 %tmp.248;
+                putv self :justification %tmp.249;
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 77 18 ]
+                %tmp.250 = getm $.Toybox.Graphics;
+                %tmp.251 = getv %tmp.250 :FONT_XTINY;
+                putv self :font %tmp.251;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 76; @position = 18; ]
+            const justification;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 77; @position = 18; ]
+            const font;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 80; ]
+        module system_icon_dark__discard {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 80; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 81; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__discard.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 82; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 83; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 84; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 87; ]
+        module system_size__menu_item {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 87; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 88; @position = 18; ]
+            const width as Number = 260;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 89; @position = 18; ]
+            const height as Number = 68;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 92; ]
+        module system_color_dark__text {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 92; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 94 18 ]
+                %tmp.252 = getm $.Toybox.Graphics;
+                %tmp.253 = getv %tmp.252 :COLOR_TRANSPARENT;
+                putv self :background %tmp.253;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 93; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 94; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 97; ]
+        module system_icon_destructive__discard {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 97; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 98; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_destructive__discard.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 99; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 102; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 102; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 103; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 104; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 107; ]
+        module prompt_size__title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 107; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 108; @position = 18; ]
+            const width as Number = 208;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 109; @position = 18; ]
+            const height as Number = 39;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 112; ]
+        module confirmation_font__body {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 112; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 113 18 ]
+                %tmp.254 = getm $.Toybox.Graphics;
+                %tmp.255 = getv %tmp.254 :TEXT_JUSTIFY_CENTER;
+                %tmp.256 = getm $.Toybox.Graphics;
+                %tmp.257 = getv %tmp.256 :TEXT_JUSTIFY_VCENTER;
+                %tmp.258 = bitor %tmp.255 %tmp.257;
+                putv self :justification %tmp.258;
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 114 18 ]
+                %tmp.259 = getm $.Toybox.Graphics;
+                %tmp.260 = getv %tmp.259 :FONT_TINY;
+                putv self :font %tmp.260;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 113; @position = 18; ]
+            const justification;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 114; @position = 18; ]
+            const font;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 117; ]
+        module system_color_dark__background {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 117; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 118; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 119; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 122; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 122; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 123; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 124; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 127; ]
+        module system_size__launch_icon {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 127; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 128; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 129; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 130; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 133; ]
+        module confirmation_input__confirm {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 133; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 134 18 ]
+                %tmp.261 = getm $.Toybox.WatchUi;
+                %tmp.262 = getv %tmp.261 :KEY_ENTER;
+                putv self :button %tmp.262;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 134; @position = 18; ]
+            const button;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 137; ]
+        module prompt_font__body_with_title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 137; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 138 18 ]
+                %tmp.263 = getm $.Toybox.Graphics;
+                %tmp.264 = getv %tmp.263 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.264;
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 139 18 ]
+                %tmp.265 = getm $.Toybox.Graphics;
+                %tmp.266 = getv %tmp.265 :FONT_TINY;
+                putv self :font %tmp.266;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 138; @position = 18; ]
+            const justification;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 139; @position = 18; ]
+            const font;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 142; ]
+        module confirmation_loc__body {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 142; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 143; @position = 18; ]
+            const x as Number = 52;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 144; @position = 18; ]
+            const y as Number = 52;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 147; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 147; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 148; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 149; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 152; ]
+        module prompt_color_dark__background {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 152; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 153; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 154; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 157; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 157; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 158; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 159; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 162; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 162; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 163; @position = 18; ]
+            const x as Number = 225;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 164; @position = 18; ]
+            const y as Number = 48;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 167; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 167; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 168; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 169; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 172; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 172; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 173; @position = 18; ]
+            const x as Number = 3;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 174; @position = 18; ]
+            const y as Number = 108;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 177; ]
+        module prompt_size__body_no_title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 177; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 178; @position = 18; ]
+            const width as Number = 208;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 179; @position = 18; ]
+            const height as Number = 208;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 182; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 182; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 183; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 184; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 187; ]
+        module prompt_color_light__background {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 187; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 188; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 189; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 192; ]
+        module confirmation_input__delete {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 192; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 193 18 ]
+                %tmp.267 = getm $.Toybox.WatchUi;
+                %tmp.268 = getv %tmp.267 :KEY_ENTER;
+                putv self :button %tmp.268;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 193; @position = 18; ]
+            const button;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 196; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 196; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 197; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 198; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 201; ]
+        module system_input__action_menu {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 201; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 202 18 ]
+                %tmp.269 = getm $.Toybox.WatchUi;
+                %tmp.270 = getv %tmp.269 :KEY_ENTER;
+                putv self :button %tmp.270;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 202; @position = 18; ]
+            const button;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 205; ]
+        module system_icon_light__save {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 205; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 206; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__save.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 207; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 210; ]
+        module prompt_color_light__body {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 210; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 212 18 ]
+                %tmp.271 = getm $.Toybox.Graphics;
+                %tmp.272 = getv %tmp.271 :COLOR_TRANSPARENT;
+                putv self :background %tmp.272;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 211; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 212; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 215; ]
+        module system_loc__subwindow {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 215; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 216; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 219; ]
+        module system_icon_light__warning {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 219; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 220; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__warning.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 221; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 224; ]
+        module confirmation_color_light__body {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 224; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 226 18 ]
+                %tmp.273 = getm $.Toybox.Graphics;
+                %tmp.274 = getv %tmp.273 :COLOR_TRANSPARENT;
+                putv self :background %tmp.274;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 225; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 226; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 229; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 229; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 230; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 231; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 234; ]
+        module activity_color_light__background {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 234; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 235; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 236; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 239; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 239; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 240; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 241; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 244; ]
+        module system_size__screen {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 244; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 245; @position = 18; ]
+            const width as Number = 260;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 246; @position = 18; ]
+            const height as Number = 260;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 249; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 249; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 250; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 251; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 254; ]
+        module system_color_light__background {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 254; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 255; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 256; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 259; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 259; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 260; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 261; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 264; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 264; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 265; @position = 18; ]
+            const x as Number = 210;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 266; @position = 18; ]
+            const y as Number = 48;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 269; ]
+        module activity_color_dark__text {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 269; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 271 18 ]
+                %tmp.275 = getm $.Toybox.Graphics;
+                %tmp.276 = getv %tmp.275 :COLOR_TRANSPARENT;
+                putv self :background %tmp.276;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 270; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 271; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 274; ]
+        module confirmation_input__keep {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 274; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 275 18 ]
+                %tmp.277 = getm $.Toybox.WatchUi;
+                %tmp.278 = getv %tmp.277 :KEY_DOWN;
+                putv self :button %tmp.278;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 275; @position = 18; ]
+            const button;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 278; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 278; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 279; @position = 18; ]
+            const x as Number = 26;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 280; @position = 18; ]
+            const y as Number = 78;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 283; ]
+        module system_icon_dark__search {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 284; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__search.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 285; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 286; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 287; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 290; ]
+        module activity_color_light__text {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 290; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 292 18 ]
+                %tmp.279 = getm $.Toybox.Graphics;
+                %tmp.280 = getv %tmp.279 :COLOR_TRANSPARENT;
+                putv self :background %tmp.280;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 291; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 292; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 295; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 295; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 296; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 297; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 300; ]
+        module system_icon_dark__save {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 300; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 301; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__save.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 302; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 303; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 304; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 307; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 307; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 308; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 309; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 312; ]
+        module system_icon_light__search {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 312; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 313; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__search.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 314; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 317; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 317; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 318; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 319; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 322; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 322; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 323; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_positive__hint_button_left_top.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 324; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 327; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 327; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 328; @position = 18; ]
+            const x as Number = 225;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 329; @position = 18; ]
+            const y as Number = 172;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 332; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 332; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 333; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 334; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 337; ]
+        module confirmation_color_dark__body {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 337; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 339 18 ]
+                %tmp.281 = getm $.Toybox.Graphics;
+                %tmp.282 = getv %tmp.281 :COLOR_TRANSPARENT;
+                putv self :background %tmp.282;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 338; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 339; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 342; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 342; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 343; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 344; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 347; ]
+        module prompt_color_dark__title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 347; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 349 18 ]
+                %tmp.283 = getm $.Toybox.Graphics;
+                %tmp.284 = getv %tmp.283 :COLOR_TRANSPARENT;
+                putv self :background %tmp.284;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 348; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 349; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 352; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 352; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 353; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_destructive__cancel.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 354; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 357; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 357; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 358; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 359; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 362; ]
+        module prompt_loc__title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 362; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 363; @position = 18; ]
+            const x as Number = 26;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 364; @position = 18; ]
+            const y as Number = 19;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 367; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 367; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 368; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 371; ]
+        module prompt_color_light__title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 371; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 373 18 ]
+                %tmp.285 = getm $.Toybox.Graphics;
+                %tmp.286 = getv %tmp.285 :COLOR_TRANSPARENT;
+                putv self :background %tmp.286;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 372; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 373; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 376; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 376; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 377; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 378; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 381; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 381; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 382; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 383; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 386; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 386; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 387; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 388; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 391; ]
+        module system_icon_light__cancel {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 391; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 392; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__cancel.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 393; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 396; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 396; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 397; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 398; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 401; ]
+        module system_icon_light__about {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 401; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 402; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__about.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 403; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 406; ]
+        module system_size__toast_icon {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 407; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 408; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 409; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 412; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 412; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 413; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 416; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 416; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 417; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 418; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 421; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 421; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 422; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 423; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 426; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 426; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 427; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 430; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 431; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 434; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 434; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 435; @position = 18; ]
+            const x as Number = 10;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 436; @position = 18; ]
+            const y as Number = 172;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 437; @position = 18; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 440; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 441; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 442; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 445; ]
+        module activity_color_dark__background {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 445; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 446; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 447; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 450; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 450; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 451; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 452; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 455; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 455; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 456; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 457; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 460; ]
+        module system_size__menu_icon {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 460; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 461; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 462; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 463; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 466; ]
+        module system_icon_destructive__warning {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 466; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 467; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_destructive__warning.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 468; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 471; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 471; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 472; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 475; ]
+        module system_icon_dark__cancel {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 475; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 476; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__cancel.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 477; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 478; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 479; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 482; ]
+        module prompt_size__body_with_title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 482; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 483; @position = 18; ]
+            const width as Number = 208;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 484; @position = 18; ]
+            const height as Number = 156;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 487; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 487; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 488; @position = 18; ]
+            const x as Number = 225;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 489; @position = 18; ]
+            const y as Number = 48;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 492; ]
+        module system_color_light__text {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 492; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 494 18 ]
+                %tmp.287 = getm $.Toybox.Graphics;
+                %tmp.288 = getv %tmp.287 :COLOR_TRANSPARENT;
+                putv self :background %tmp.288;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 493; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 494; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 497; ]
+        module system_icon_light__check {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 497; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 498; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__check.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 499; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 502; ]
+        module confirmation_input__reject {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 502; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 503 18 ]
+                %tmp.289 = getm $.Toybox.WatchUi;
+                %tmp.290 = getv %tmp.289 :KEY_DOWN;
+                putv self :button %tmp.290;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 503; @position = 18; ]
+            const button;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 506; ]
+        module system_icon_light__revert {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 506; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 507; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__revert.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 508; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 511; ]
+        module system_size__subwindow {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 511; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 512; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 515; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 515; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 516; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 517; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 520; ]
+        module system_icon_dark__check {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 520; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 521; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__check.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 522; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 523; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 524; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 527; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 527; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 528; @position = 18; ]
+            const x as Number = 10;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 529; @position = 18; ]
+            const y as Number = 172;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 530; @position = 18; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 533; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 533; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 534; @position = 18; ]
+            const x as Number = 210;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 535; @position = 18; ]
+            const y as Number = 48;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 538; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 538; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 539; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 540; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 543; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 543; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 544; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 547; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 547; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 548; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 549; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 552; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 552; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 553; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 554; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 557; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 557; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 558; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 559; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 562; ]
+        module system_icon_dark__revert {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 562; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 563; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__revert.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 564; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 565; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 566; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 569; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 569; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 570; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 571; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 574; ]
+        module system_icon_dark__question {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 574; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 575; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__question.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 576; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 577; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 578; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 581; ]
+        module system_icon_light__discard {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 581; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 582; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__discard.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 583; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 586; ]
+        module device_info {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 586; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 588 18 ]
+                %tmp.291 = getm $.Toybox.System;
+                %tmp.292 = getv %tmp.291 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.292;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 587; @position = 18; ]
+            const screenWidth as Number = 260;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 588; @position = 18; ]
+            const screenShape;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 589; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 590; @position = 18; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 591; @position = 18; ]
+            const screenHeight as Number = 260;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 592; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 593; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 596; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 596; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 597; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 598; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 601; ]
+        module prompt_font__body_no_title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 601; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 602 18 ]
+                %tmp.293 = getm $.Toybox.Graphics;
+                %tmp.294 = getv %tmp.293 :TEXT_JUSTIFY_CENTER;
+                %tmp.295 = getm $.Toybox.Graphics;
+                %tmp.296 = getv %tmp.295 :TEXT_JUSTIFY_VCENTER;
+                %tmp.297 = bitor %tmp.294 %tmp.296;
+                putv self :justification %tmp.297;
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 603 18 ]
+                %tmp.298 = getm $.Toybox.Graphics;
+                %tmp.299 = getv %tmp.298 :FONT_TINY;
+                putv self :font %tmp.299;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 602; @position = 18; ]
+            const justification;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 603; @position = 18; ]
+            const font;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 606; ]
+        module prompt_size__title_icon {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 606; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 607; @position = 18; ]
+            const scaleX as Float = 0.15;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 608; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 611; ]
+        module system_icon_dark__warning {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 611; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 612; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_dark__warning.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 613; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 614; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 615; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 618; ]
+        module prompt_loc__title_icon {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 618; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 619; @position = 18; ]
+            const x as Number = 130;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 620; @position = 18; ]
+            const y as Number = 39;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 621; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 622; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 625; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 625; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 626; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 629; ]
+        module prompt_color_dark__body {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 629; ]
+            <init> {
+[ "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" 631 18 ]
+                %tmp.300 = getm $.Toybox.Graphics;
+                %tmp.301 = getv %tmp.300 :COLOR_TRANSPARENT;
+                putv self :background %tmp.301;
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 630; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 631; @position = 18; ]
+            const background;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 634; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 634; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 635; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 636; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 639; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 639; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 640; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 641; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 644; ]
+        module confirmation_size__body {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 644; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 645; @position = 18; ]
+            const width as Number = 156;
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 646; @position = 18; ]
+            const height as Number = 156;
+        }
+        [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 649; ]
+        module system_icon_positive__check {
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 649; ]
+            <init> {
+            }
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 650; @position = 18; ]
+            const filename as String = "/home/vortgo/.Garmin/ConnectIQ/Devices/fenix7pro/system_icon_positive__check.svg";
+            [ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 651; @position = 18; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}

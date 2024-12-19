@@ -1,0 +1,82 @@
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 4; ]
+import Toybox.System;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 7; background = true; ]
+class batterylifeApp extends Application.AppBase{
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 9; ]
+    function initialize() as Void {
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeApp_mc_9_26_11_4_start:
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" 10 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeApp_mc_9_26_11_4_stop:
+    }
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 14; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 18; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 22; ]
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeApp_mc_22_68_25_4_start:
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" 23 8 ]
+        [ "_home_vortgo_projects_garmin_1_batterylife_source_batterylifeApp_mc_22_68_25_4_start" "_home_vortgo_projects_garmin_1_batterylife_source_batterylifeApp_mc_22_68_25_4_stop" ]
+        %v.1 = local;
+        %tmp.4 = getv ? :batterylifeView;
+        %tmp.1 = newc %tmp.4 ();
+        lputv %v.1 %tmp.1;
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" 24 8 ]
+        %tmp.5 = newa 2;
+        %tmp.7 = lgetv %v.1;
+        %tmp.8 = dup %tmp.5;
+        %tmp.9 = aputv %tmp.8 0 %tmp.7;
+        %tmp.13 = getv ? :batterylifeDelegate;
+        %tmp.15 = lgetv %v.1;
+        %tmp.10 = newc %tmp.13 (%tmp.15);
+        %tmp.16 = dup %tmp.9;
+        %tmp.17 = aputv %tmp.16 1 %tmp.10;
+        ret %tmp.17;
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeApp_mc_22_68_25_4_stop:
+    }
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 27; ]
+    public
+    function getServiceDelegate() as [ServiceDelegate] {
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeApp_mc_27_62_29_4_start:
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" 28 8 ]
+        %tmp.1 = newa 1;
+        %tmp.5 = getv ? :batterylifeBackground;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeApp_mc_27_62_29_4_stop:
+    }
+}
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 33; ]
+function getApp() as batterylifeApp {
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeApp_mc_33_36_35_0_start:
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" 34 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 batterylifeApp;
+    ret %tmp.4;
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeApp_mc_33_36_35_0_stop:
+}
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc"; @line = 1; ]
+<init> {
+}

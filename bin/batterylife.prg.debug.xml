@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/home/vortgo/projects/garmin-1/batterylife/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" id="1" lineNum="7" parent="globals/batterylifeApp" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="2" lineNum="9" parent="globals/batterylifeBackground" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" id="3" lineNum="14" parent="globals/batterylifeApp" pc="268435484" symbol="onStart"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" id="4" lineNum="27" parent="globals/batterylifeApp" pc="268435487" symbol="getServiceDelegate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" id="4" lineNum="28" parent="globals/batterylifeApp" pc="268435489" symbol="getServiceDelegate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" id="5" lineNum="22" parent="globals/batterylifeApp" pc="268435519" symbol="getInitialView"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" id="5" lineNum="23" parent="globals/batterylifeApp" pc="268435522" symbol="getInitialView"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" id="5" lineNum="24" parent="globals/batterylifeApp" pc="268435546" symbol="getInitialView"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" id="6" lineNum="9" parent="globals/batterylifeApp" pc="268435583" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" id="6" lineNum="10" parent="globals/batterylifeApp" pc="268435585" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" id="7" lineNum="18" parent="globals/batterylifeApp" pc="268435598" symbol="onStop"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="16" parent="globals/batterylifeBackground" pc="268435601" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="18" parent="globals/batterylifeBackground" pc="268435604" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="19" parent="globals/batterylifeBackground" pc="268435622" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="21" parent="globals/batterylifeBackground" pc="268435634" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="22" parent="globals/batterylifeBackground" pc="268435653" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="23" parent="globals/batterylifeBackground" pc="268435659" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="26" parent="globals/batterylifeBackground" pc="268435665" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="27" parent="globals/batterylifeBackground" pc="268435683" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="29" parent="globals/batterylifeBackground" pc="268435698" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="30" parent="globals/batterylifeBackground" pc="268435706" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="32" parent="globals/batterylifeBackground" pc="268435714" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="33" parent="globals/batterylifeBackground" pc="268435732" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="34" parent="globals/batterylifeBackground" pc="268435766" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="37" parent="globals/batterylifeBackground" pc="268435789" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="8" lineNum="38" parent="globals/batterylifeBackground" pc="268435807" symbol="onTemporalEvent"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="9" lineNum="12" parent="globals/batterylifeBackground" pc="268435823" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" id="9" lineNum="13" parent="globals/batterylifeBackground" pc="268435825" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" id="10" lineNum="33" parent="globals" pc="268435838" symbol="getApp"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeApp.mc" id="10" lineNum="34" parent="globals" pc="268435848" symbol="getApp"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268435859" symbol="&lt;init&gt;"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="12" lineNum="9" parent="globals/batterylifeDelegate" pc="268435879" symbol="&lt;init&gt;"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="13" lineNum="9" parent="globals/batterylifeView" pc="268435891" symbol="&lt;init&gt;"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="14" lineNum="53" parent="globals/batterylifeDelegate" pc="268435903" symbol="getCurrentTimestamp"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="14" lineNum="54" parent="globals/batterylifeDelegate" pc="268435906" symbol="getCurrentTimestamp"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="14" lineNum="55" parent="globals/batterylifeDelegate" pc="268435931" symbol="getCurrentTimestamp"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="15" lineNum="18" parent="globals/batterylifeDelegate" pc="268436072" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="15" lineNum="19" parent="globals/batterylifeDelegate" pc="268436074" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="15" lineNum="20" parent="globals/batterylifeDelegate" pc="268436083" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="15" lineNum="22" parent="globals/batterylifeDelegate" pc="268436095" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="15" lineNum="23" parent="globals/batterylifeDelegate" pc="268436113" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="15" lineNum="24" parent="globals/batterylifeDelegate" pc="268436122" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="15" lineNum="26" parent="globals/batterylifeDelegate" pc="268436133" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="15" lineNum="27" parent="globals/batterylifeDelegate" pc="268436152" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="15" lineNum="28" parent="globals/batterylifeDelegate" pc="268436171" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="15" lineNum="30" parent="globals/batterylifeDelegate" pc="268436179" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="16" lineNum="33" parent="globals/batterylifeDelegate" pc="268436203" symbol="onSelect"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="16" lineNum="34" parent="globals/batterylifeDelegate" pc="268436206" symbol="onSelect"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="16" lineNum="35" parent="globals/batterylifeDelegate" pc="268436219" symbol="onSelect"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="16" lineNum="36" parent="globals/batterylifeDelegate" pc="268436242" symbol="onSelect"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="16" lineNum="38" parent="globals/batterylifeDelegate" pc="268436260" symbol="onSelect"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="16" lineNum="39" parent="globals/batterylifeDelegate" pc="268436277" symbol="onSelect"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="16" lineNum="40" parent="globals/batterylifeDelegate" pc="268436304" symbol="onSelect"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="16" lineNum="41" parent="globals/batterylifeDelegate" pc="268436320" symbol="onSelect"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="16" lineNum="42" parent="globals/batterylifeDelegate" pc="268436344" symbol="onSelect"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="16" lineNum="44" parent="globals/batterylifeDelegate" pc="268436381" symbol="onSelect"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="16" lineNum="45" parent="globals/batterylifeDelegate" pc="268436393" symbol="onSelect"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="16" lineNum="46" parent="globals/batterylifeDelegate" pc="268436412" symbol="onSelect"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeDelegate.mc" id="16" lineNum="50" parent="globals/batterylifeDelegate" pc="268436431" symbol="onSelect"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="18" lineNum="28" parent="globals/batterylifeView" pc="268436433" symbol="onLayout"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="18" lineNum="29" parent="globals/batterylifeView" pc="268436435" symbol="onLayout"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="18" lineNum="31" parent="globals/batterylifeView" pc="268436468" symbol="onLayout"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="18" lineNum="32" parent="globals/batterylifeView" pc="268436493" symbol="onLayout"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="18" lineNum="33" parent="globals/batterylifeView" pc="268436518" symbol="onLayout"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="18" lineNum="35" parent="globals/batterylifeView" pc="268436543" symbol="onLayout"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="19" lineNum="107" parent="globals/batterylifeView" pc="268436554" symbol="requestUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="19" lineNum="108" parent="globals/batterylifeView" pc="268436556" symbol="requestUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="20" lineNum="102" parent="globals/batterylifeView" pc="268436568" symbol="updateSinceLastCharge"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="20" lineNum="103" parent="globals/batterylifeView" pc="268436570" symbol="updateSinceLastCharge"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="20" lineNum="104" parent="globals/batterylifeView" pc="268436586" symbol="updateSinceLastCharge"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="21" lineNum="97" parent="globals/batterylifeView" pc="268436598" symbol="updateLastStartedAt"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="21" lineNum="98" parent="globals/batterylifeView" pc="268436600" symbol="updateLastStartedAt"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="21" lineNum="99" parent="globals/batterylifeView" pc="268436616" symbol="updateLastStartedAt"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="22" lineNum="85" parent="globals/batterylifeView" pc="268436628" symbol="updateStatus"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="22" lineNum="86" parent="globals/batterylifeView" pc="268436630" symbol="updateStatus"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="22" lineNum="87" parent="globals/batterylifeView" pc="268436635" symbol="updateStatus"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="22" lineNum="88" parent="globals/batterylifeView" pc="268436654" symbol="updateStatus"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="22" lineNum="90" parent="globals/batterylifeView" pc="268436675" symbol="updateStatus"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="22" lineNum="91" parent="globals/batterylifeView" pc="268436694" symbol="updateStatus"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="22" lineNum="94" parent="globals/batterylifeView" pc="268436713" symbol="updateStatus"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="23" lineNum="19" parent="globals/batterylifeView" pc="268436725" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="23" lineNum="20" parent="globals/batterylifeView" pc="268436727" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="23" lineNum="23" parent="globals/batterylifeView" pc="268436739" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="23" lineNum="24" parent="globals/batterylifeView" pc="268436768" symbol="initialize"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="45" parent="globals/batterylifeView" pc="268436800" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="46" parent="globals/batterylifeView" pc="268436803" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="47" parent="globals/batterylifeView" pc="268436822" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="48" parent="globals/batterylifeView" pc="268436841" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="50" parent="globals/batterylifeView" pc="268436860" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="51" parent="globals/batterylifeView" pc="268436866" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="54" parent="globals/batterylifeView" pc="268436880" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="55" parent="globals/batterylifeView" pc="268436886" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="57" parent="globals/batterylifeView" pc="268436905" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="60" parent="globals/batterylifeView" pc="268436924" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="61" parent="globals/batterylifeView" pc="268436930" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="62" parent="globals/batterylifeView" pc="268436948" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="64" parent="globals/batterylifeView" pc="268436955" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="65" parent="globals/batterylifeView" pc="268436964" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="66" parent="globals/batterylifeView" pc="268436977" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="67" parent="globals/batterylifeView" pc="268436988" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="68" parent="globals/batterylifeView" pc="268436995" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="69" parent="globals/batterylifeView" pc="268437086" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="71" parent="globals/batterylifeView" pc="268437105" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/source/batterylifeView.mc" id="25" lineNum="75" parent="globals/batterylifeView" pc="268437124" symbol="onUpdate"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" id="26" lineNum="13" parent="globals/Rez/Layouts" pc="268437141" symbol="MainLayout"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" id="26" lineNum="14" parent="globals/Rez/Layouts" pc="268437152" symbol="MainLayout"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" id="26" lineNum="16" parent="globals/Rez/Layouts" pc="268437251" symbol="MainLayout"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" id="26" lineNum="18" parent="globals/Rez/Layouts" pc="268437340" symbol="MainLayout"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" id="26" lineNum="20" parent="globals/Rez/Layouts" pc="268437429" symbol="MainLayout"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" id="26" lineNum="22" parent="globals/Rez/Layouts" pc="268437518" symbol="MainLayout"/>
+        <entry filename="/home/vortgo/projects/garmin-1/batterylife/bin/gen/006-B4375-00/source/Rez.mcgen" id="26" lineNum="24" parent="globals/Rez/Layouts" pc="268437607" symbol="MainLayout"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389346" symbol="text"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="14" symbol="status"/>
+        <entry id="24" method="true" symbol="MainLayout"/>
+        <entry field="true" id="12" symbol="isBackgroundTaskRunning"/>
+        <entry id="8390424" module="true" symbol="Storage"/>
+        <entry field="true" id="18" symbol="sinceLastChargeElem"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry id="11" method="true" symbol="getCurrentTimestamp"/>
+        <entry id="20" method="true" symbol="updateLastStartedAt"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="16" symbol="&lt;globals/batterylifeView/&lt;&gt;_updateTimer&gt;"/>
+        <entry id="21" method="true" symbol="updateSinceLastCharge"/>
+        <entry field="true" id="25" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8390148" method="true" symbol="onTemporalEvent"/>
+        <entry field="true" id="28" symbol="prompt"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="13" symbol="lastStartedAt"/>
+        <entry id="8389026" method="true" symbol="requestUpdate"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8390169" method="true" symbol="getServiceDelegate"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="6" object="true" symbol="batterylifeApp"/>
+        <entry field="true" id="17" symbol="lastStartedAtElem"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="9" object="true" symbol="batterylifeView"/>
+        <entry id="8" object="true" symbol="batterylifeDelegate"/>
+        <entry id="22" method="true" symbol="updateStatus"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="23" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="15" symbol="view"/>
+        <entry id="7" object="true" symbol="batterylifeBackground"/>
+        <entry field="true" id="19" symbol="statusElem"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="10" module="true" symbol="Layouts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="27" symbol="menu_label_2"/>
+        <entry field="true" id="26" symbol="menu_label_1"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435582" name="v" stackId="1" startPc="268435522"/>
+        <entry endPc="268435821" name="myStats" stackId="1" startPc="268435604"/>
+        <entry endPc="268435821" name="lastBattery" stackId="2" startPc="268435604"/>
+        <entry endPc="268435821" name="currentBattery" stackId="3" startPc="268435604"/>
+        <entry endPc="268436071" name="today" stackId="1" startPc="268435906"/>
+        <entry arg="true" endPc="268436202" name="v" stackId="1" startPc="268436072"/>
+        <entry endPc="268436377" name="time" stackId="1" startPc="268436277"/>
+        <entry arg="true" endPc="268436553" name="dc" stackId="1" startPc="268436433"/>
+        <entry arg="true" endPc="268436597" name="sinceLastCharge" stackId="1" startPc="268436568"/>
+        <entry arg="true" endPc="268436627" name="lastStartedAt" stackId="1" startPc="268436598"/>
+        <entry arg="true" endPc="268436724" name="status" stackId="1" startPc="268436628"/>
+        <entry arg="true" endPc="268437140" name="dc" stackId="1" startPc="268436800"/>
+        <entry endPc="268437139" name="status" stackId="2" startPc="268436803"/>
+        <entry endPc="268437139" name="lastStart" stackId="3" startPc="268436803"/>
+        <entry endPc="268437139" name="chargeTime" stackId="4" startPc="268436803"/>
+        <entry endPc="268437101" name="nowUnixTime" stackId="5" startPc="268436930"/>
+        <entry endPc="268437101" name="diffSeconds" stackId="6" startPc="268436930"/>
+        <entry endPc="268437101" name="days" stackId="7" startPc="268436930"/>
+        <entry endPc="268437101" name="hours" stackId="8" startPc="268436930"/>
+        <entry endPc="268437101" name="minutes" stackId="9" startPc="268436930"/>
+        <entry endPc="268437101" name="seconds" stackId="10" startPc="268436930"/>
+        <entry endPc="268437101" name="sinceLastCharge" stackId="11" startPc="268436930"/>
+        <entry arg="true" endPc="268437636" name="dc" stackId="1" startPc="268437141"/>
+        <entry endPc="268437636" name="rez_cmp_local_text_status" stackId="2" startPc="268437152"/>
+        <entry endPc="268437636" name="rez_cmp_local_text_1315031131" stackId="3" startPc="268437152"/>
+        <entry endPc="268437636" name="rez_cmp_local_text_last_start" stackId="4" startPc="268437152"/>
+        <entry endPc="268437636" name="rez_cmp_local_text_1249933471" stackId="5" startPc="268437152"/>
+        <entry endPc="268437636" name="rez_cmp_local_text_since_last_charge" stackId="6" startPc="268437152"/>
+    </localVars>
+    <deviceInfo deviceVersion="4866e5192c0c99025597cd8e6e841f3d774b64f7" partNumber="006-B4375-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+        <annotationEntry annotation="background" class="batterylifeApp" module="globals" symbol="onStart"/>
+        <annotationEntry annotation="background" class="batterylifeBackground" module="globals" symbol="onTemporalEvent"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+        <annotationEntry annotation="background" class="batterylifeApp" module="globals" symbol="onStop"/>
+        <annotationEntry annotation="background" class="batterylifeApp" module="globals" symbol="getInitialView"/>
+        <annotationEntry annotation="background" class="batterylifeBackground" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="background" class="batterylifeApp" module="globals" symbol="getServiceDelegate"/>
+        <annotationEntry annotation="background" class="batterylifeApp" module="globals" symbol="initialize"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/batterylifeApp" offset="143" parentId="globals" symbolId="batterylifeApp" type="class"/>
+        <dataEntry label="globals/batterylifeBackground" offset="223" parentId="globals" symbolId="batterylifeBackground" type="class"/>
+        <dataEntry label="globals/Rez" offset="389" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/batterylifeDelegate" offset="442" parentId="globals" symbolId="batterylifeDelegate" type="class"/>
+        <dataEntry label="globals/batterylifeView" offset="540" parentId="globals" symbolId="batterylifeView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="692" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="727" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="762" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="batterylifeApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435483" name="&lt;init&gt;" parent="batterylifeBackground" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435486" name="onStart" parent="batterylifeApp" startPc="268435484">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435518" name="getServiceDelegate" parent="batterylifeApp" startPc="268435487">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435582" name="getInitialView" parent="batterylifeApp" startPc="268435519">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435597" name="initialize" parent="batterylifeApp" startPc="268435583">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435600" name="onStop" parent="batterylifeApp" startPc="268435598">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435822" name="onTemporalEvent" parent="batterylifeBackground" startPc="268435601">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435837" name="initialize" parent="batterylifeBackground" startPc="268435823">
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435858" name="getApp" startPc="268435838">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435878" name="&lt;init&gt;" parent="Rez" startPc="268435859">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435890" name="&lt;init&gt;" parent="batterylifeDelegate" startPc="268435879">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435902" name="&lt;init&gt;" parent="batterylifeView" startPc="268435891">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436071" name="getCurrentTimestamp" parent="batterylifeDelegate" startPc="268435903">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436202" name="initialize" parent="batterylifeDelegate" startPc="268436072">
+            <param id="v"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436432" name="onSelect" parent="batterylifeDelegate" startPc="268436203">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="batterylifeView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436553" name="onLayout" parent="batterylifeView" startPc="268436433">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436567" name="requestUpdate" parent="batterylifeView" startPc="268436554">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436597" name="updateSinceLastCharge" parent="batterylifeView" startPc="268436568">
+            <param id="sinceLastCharge"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436627" name="updateLastStartedAt" parent="batterylifeView" startPc="268436598">
+            <param id="lastStartedAt"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436724" name="updateStatus" parent="batterylifeView" startPc="268436628">
+            <param id="status"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436799" name="initialize" parent="batterylifeView" startPc="268436725">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="batterylifeView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437140" name="onUpdate" parent="batterylifeView" startPc="268436800">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437636" name="MainLayout" parent="Layouts" startPc="268437141">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

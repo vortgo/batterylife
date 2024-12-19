@@ -1,0 +1,43 @@
+<layout id="MainLayout">
+    <label 
+        id="status"
+        text="ACTIVE"
+        x="center"
+        y="10%"
+        font="Graphics.FONT_LARGE"
+        justification="Graphics.TEXT_JUSTIFY_CENTER"
+        color="Graphics.COLOR_GREEN"
+    />
+     <label 
+        text="Last started at"
+        x="center"
+        y="25%"
+        font="Graphics.FONT_MEDIUM"
+        justification="Graphics.TEXT_JUSTIFY_CENTER"
+        color="Graphics.COLOR_LT_GRAY"
+    />
+     <label 
+        id="last_start"
+        text="- - -"
+        x="center"
+        y="40%"
+        font="Graphics.FONT_SMALL"
+        justification="Graphics.TEXT_JUSTIFY_CENTER"
+    />
+   <label 
+        text="Since last charge"
+        x="center"
+        y="55%"
+        font="Graphics.FONT_MEDIUM"
+        justification="Graphics.TEXT_JUSTIFY_CENTER"
+        color="Graphics.COLOR_LT_GRAY"
+    />
+    <label 
+        id="since_last_charge"
+        text="- - -"
+        x="center"
+        y="70%"
+        font="Graphics.FONT_SMALL"
+        justification="Graphics.TEXT_JUSTIFY_CENTER"
+    />
+</layout>

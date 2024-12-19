@@ -1,0 +1,132 @@
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc"; @line = 1; ]
+import Toybox.Application.Storage;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc"; @line = 2; ]
+import Toybox.Background;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc"; @line = 4; ]
+import Toybox.System;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc"; @line = 5; ]
+import Toybox.Time;
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc"; @line = 9; background = true; ]
+class batterylifeBackground extends System.ServiceDelegate{
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc"; @line = 9; ]
+    <init> {
+    }
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc"; @line = 9; ]
+    static
+    <init> {
+    }
+    //! Constructor
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc"; @line = 12; ]
+    public
+    function initialize() as Void {
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_12_33_14_4_start:
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 13 8 ]
+        %tmp.2 = getv ? :ServiceDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_12_33_14_4_stop:
+    }
+    [ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc"; @line = 16; ]
+    public
+    function onTemporalEvent() as Void {
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_16_46_39_4_start:
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 18 8 ]
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = "onTemporalEvent";
+        invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 19 8 ]
+        [ "_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_16_46_39_4_start" "_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_16_46_39_4_stop" ]
+        %myStats.1 = local;
+        %tmp.4 = getm $.Toybox.System;
+        %tmp.5 = getv function %tmp.4 :getSystemStats;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %myStats.1 %tmp.6;
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 21 8 ]
+        [ "_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_16_46_39_4_start" "_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_16_46_39_4_stop" ]
+        %lastBattery.2 = local;
+        %tmp.7 = getm $.Toybox.Application.Storage;
+        %tmp.8 = getv function %tmp.7 :getValue;
+        %tmp.9 = "battery";
+        %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+        lputv %lastBattery.2 %tmp.10;
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 22 8 ]
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_22_8_24_8_if_stmt:
+        %tmp.12 = lgetv %lastBattery.2;
+        %tmp.13 = null;
+        %tmp.14 = eq %tmp.12 %tmp.13;
+        bf %tmp.14 @_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_22_8_24_8_if_end;
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_22_8_24_8_if_true:
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_22_33_24_8_start:
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 23 12 ]
+        %tmp.15 = 0;
+        lputv %lastBattery.2 %tmp.15;
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_22_33_24_8_stop:
+        goto @_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_22_8_24_8_if_end;
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_22_8_24_8_if_end:
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 26 8 ]
+        %tmp.16 = getm $.Toybox.System;
+        %tmp.17 = getv function %tmp.16 :println;
+        %tmp.18 = "lastBattery";
+        invoke %tmp.16 %tmp.17(%tmp.18);
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 27 8 ]
+        %tmp.19 = getm $.Toybox.System;
+        %tmp.20 = getv function %tmp.19 :println;
+        %tmp.22 = lgetv %lastBattery.2;
+        invoke %tmp.19 %tmp.20(%tmp.22);
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 29 8 ]
+        [ "_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_16_46_39_4_start" "_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_16_46_39_4_stop" ]
+        %currentBattery.3 = local;
+        %tmp.23 = lgetv %myStats.1;
+        %tmp.24 = getv %tmp.23 :battery;
+        lputv %currentBattery.3 %tmp.24;
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 30 8 ]
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_30_8_35_8_if_stmt:
+        %tmp.26 = lgetv %currentBattery.3;
+        %tmp.28 = lgetv %lastBattery.2;
+        %tmp.29 = gt %tmp.26 %tmp.28;
+        bf %tmp.29 @_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_30_8_35_8_if_end;
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_30_8_35_8_if_true:
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_30_42_35_8_start:
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 32 12 ]
+        %tmp.30 = getm $.Toybox.System;
+        %tmp.31 = getv function %tmp.30 :println;
+        %tmp.32 = "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+        invoke %tmp.30 %tmp.31(%tmp.32);
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 33 12 ]
+        %tmp.33 = getm $.Toybox.Application.Storage;
+        %tmp.34 = getv function %tmp.33 :setValue;
+        %tmp.35 = "charge_time";
+        %tmp.36 = getm $.Toybox.Time;
+        %tmp.37 = getv function %tmp.36 :now;
+        %tmp.38 = invoke %tmp.36 %tmp.37();
+        %tmp.39 = getv function %tmp.38 :value;
+        %tmp.40 = invoke %tmp.38 %tmp.39();
+        invoke %tmp.33 %tmp.34(%tmp.35, %tmp.40);
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 34 12 ]
+        %tmp.41 = getm $.Toybox.Application.Storage;
+        %tmp.42 = getv function %tmp.41 :setValue;
+        %tmp.43 = "battery";
+        %tmp.45 = lgetv %currentBattery.3;
+        invoke %tmp.41 %tmp.42(%tmp.43, %tmp.45);
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_30_42_35_8_stop:
+        goto @_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_30_8_35_8_if_end;
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_30_8_35_8_if_end:
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 37 8 ]
+        %tmp.46 = getm $.Toybox.System;
+        %tmp.47 = getv function %tmp.46 :println;
+        %tmp.48 = "currentBattery";
+        invoke %tmp.46 %tmp.47(%tmp.48);
+[ "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc" 38 8 ]
+        %tmp.49 = getm $.Toybox.System;
+        %tmp.50 = getv function %tmp.49 :println;
+        %tmp.52 = lgetv %currentBattery.3;
+        invoke %tmp.49 %tmp.50(%tmp.52);
+_home_vortgo_projects_garmin_1_batterylife_source_batterylifeBackground_mc_16_46_39_4_stop:
+    }
+}
+[ @file = "/home/vortgo/projects/garmin-1/batterylife/source/batterylifeBackground.mc"; @line = 1; ]
+<init> {
+}
