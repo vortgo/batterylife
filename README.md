@@ -1,5 +1,7 @@
 # Battery Life Application
 
+![Image alt](https://github.com/vortgo/batterylife/blob/master/example.jpg)
+
 This Connect IQ application tracks the battery status of a Garmin device, calculates the time since the last charge, and provides status updates in both the foreground and background. It includes a toggle to activate or deactivate the background process.
 
 ## Table of Contents
